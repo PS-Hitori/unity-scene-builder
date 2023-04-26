@@ -12,7 +12,7 @@ public class AddScenesToBuild
     private const string ScenesDirectory = "Assets/Scenes"; // Let us assume this is the default directory, change it if your Scenes are in a different directory
 
     [MenuItem("Tools/QOL Addons/Add All Scenes to Build Settings")]
-    public static void AddScenesToBuildSettings()
+    public static void AddScenesToBuild()
     {
         // Get all scene files in the scenes directory using AssetDatabase and the ScenesDirectory constant
         string[] sceneBuilds = AssetDatabase.FindAssets("t:Scene", new[] { ScenesDirectory });
