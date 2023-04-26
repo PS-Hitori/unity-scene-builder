@@ -5,7 +5,7 @@ This script adds all scene files in the "Assets/Scenes" directory to the build s
 ## Usage
 
 1. Add this script to the "Editor" folder in your Unity project.
-2. Go to "Tools" in the Unity menu bar and click "Add All Scenes to Build Settings".
+2. Go to "Tools" in the Unity menu bar and click "QOL Addons/ Add All Scenes to Build Settings".
 3. All scene files in the "Assets/Scenes" directory will be added to the build settings.
 4. A message will be displayed in the Unity console indicating the number of scenes that have been added to the build settings.
 
