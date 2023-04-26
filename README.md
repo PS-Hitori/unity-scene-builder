@@ -4,13 +4,13 @@ This script adds all scene files in the "Assets/Scenes" directory to the build s
 
 ## Usage
 
-1. Add this script to the "Editor" folder in your Unity project.
+1. Add this script to the "Editor" folder in your Unity project or copy and paste the code as a new C# file.
 2. Go to "Tools" in the Unity menu bar and click "Add-ons/Add Scenes to Build Settings".
 3. All scene files in the "Assets/Scenes" directory will be added to the build settings.
 4. A message will be displayed in the Unity console indicating the number of scenes that have been added to the build settings.
 
 ## Reporting Issues
-If you find any issues or bugs in this project, please report them using the "Issues" tab on this repository. This will help us track and resolve issues more efficiently.
+If you find any issues or bugs in this project, please report them using the "Issues" tab on this repository. This will help me track and resolve issues more efficiently.
 
 ## Notes
 
