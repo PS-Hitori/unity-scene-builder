@@ -9,6 +9,9 @@ This script adds all scene files in the "Assets/Scenes" directory to the build s
 3. All scene files in the "Assets/Scenes" directory will be added to the build settings.
 4. A message will be displayed in the Unity console indicating the number of scenes that have been added to the build settings.
 
+## Reporting Issues
+If you find any issues or bugs in this project, please report them using the "Issues" tab on this repository. This will help us track and resolve issues more efficiently.
+
 ## Notes
 
 - If there are no scenes found in the scenes directory, an error message will be displayed in the Unity console.
