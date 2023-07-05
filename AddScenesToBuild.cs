@@ -2,13 +2,16 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class AddScenesToBuild
+// You can edit the configuration settings below to change the default scenes directory.
+public class ConfigurationSettings 
 {
-   // Configuration settings
     private const string ScenesDirectoryKey = "ScenesDirectory";
     private const string DefaultScenesDirectory = "Assets/Scenes";
-    private const string SceneFilter = "t:Scene";
+    private const string SceneFilter = "t:Scene";    
+}
 
+public class AddScenesToBuild
+{
     [MenuItem("Tools/Add-ons/Add Scenes to Build Settings")]
     private static void AddScenesToBuildSettings()
     {
